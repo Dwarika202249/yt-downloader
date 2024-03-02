@@ -3,7 +3,7 @@ const ytdl = require('ytdl-core');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware for parsing JSON bodies
 app.use(bodyParser.json());
