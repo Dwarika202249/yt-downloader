@@ -52,5 +52,5 @@ function downloadVideo(url) {
   anchor.target = "_blank"; // Open in new tab
   anchor.download = "video.mp4";
   anchor.click();
-//   console.log("download success");
+  console.log("download success");
 }
